@@ -1,0 +1,16 @@
+.fcontainer {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.fcontainer > div {
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: aliceblue;
+}

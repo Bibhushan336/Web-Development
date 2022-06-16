@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logos {
+    display: flex;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    padding-left: 15px;
+    margin: 10px;
+}
+
+.navbar-nav ul{
+    display: flex;
+    height: 50px;
+    background-color: bisque;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.navbar-nav ul li{
+    padding: 0 15px;
+}
+
+.header-banner {
+    display: flex;
+    height: 200px;
+    background-color: turquoise;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.content {
+    display: flex;
+    margin: 10px;
+}
+
+.sidebar {
+    height: 40vh;
+    color: black;
+    background-color: bisque;
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.Content {
+    height: 40vh;
+    color: black;
+    background-color: bisque;
+    width: 50%;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.bottom{
+    
+    height: 120px;
+    margin: 10px;
+    background-color: beige;
+    color: black;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+

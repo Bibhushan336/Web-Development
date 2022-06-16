@@ -1,0 +1,41 @@
+h1 {
+    background-color: aqua;
+}
+
+body {
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+p {
+    border: 4px dotted red;
+    border-color: black;
+
+    
+}
+
+
+.dragon{
+    border-left-style: dotted;
+    border-radius: 5px;
+
+    margin-left: 20px;
+    margin-top: 50px;
+
+    
+}
+
+
+.padding{
+    padding: 50px;
+}
+
+.height{
+    height: 100px;
+    width: 50%;
+    outline-style: solid;
+    outline-width: 5px;
+}
+

@@ -1,0 +1,25 @@
+p {
+
+    position: relative;
+    left: 200px;
+    top: 100px;
+    background-color: aqua;
+}
+
+
+h1 {
+
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    background-color: aqua;
+}
+
+
+h2 {
+
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    background-color: aqua;
+}

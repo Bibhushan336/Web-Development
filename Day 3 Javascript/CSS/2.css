@@ -1,0 +1,14 @@
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+#circle {
+    border: 50px solid;
+    border-radius: 100px;
+    border-color: aqua;
+}

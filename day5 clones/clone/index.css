@@ -1,0 +1,170 @@
+body {
+    
+    background-color: white;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-list{
+    background-color: white;
+    padding: 2px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 160px;
+    font-family: Inter, sans-serif;
+    
+}
+
+.nav-item{
+    list-style: none;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:first-child{
+    text-align: center;
+    padding-left: 200px;
+}
+
+.nav-item:nth-child(2){
+    margin-right: auto;
+    
+}
+
+
+.image > img {
+    width: 44px;
+    
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.fa-moon{
+    color: #00ab55;
+}
+
+.purchase-button {
+      background-color: #00ab55;
+      border-radius: 5px;
+    } 
+
+.content{
+    height: 80vh;
+    background-color: #f7f9fc;
+    display: flex;
+    
+
+}
+
+.paragraph{
+    font-size: 50px;
+}
+
+.success-color{
+    margin-top: 10px;
+    color: #00ab55;
+}
+
+.words {
+    flex: 1 0 250px;
+    /* border: 1px solid red; */
+    padding: 175px 0px 0px 150px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+}
+
+p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #646e73;
+}
+
+.view-documentation {
+    background-color: white;
+    border: 1px solid #00ab55 ;
+    border-radius: 5px;
+    color: #00ab55;
+}
+
+.cls-button{
+    margin-top: 20px;
+}
+
+.rocket-image{
+    /* border: 1px solid red; */
+    flex: 1 0 250px;  
+
+}
+
+.rocket-image > img {
+    margin-top: 75px;
+}
+
+
+.first-grid-container{
+    display: flex;
+    padding: 50px;
+}
+
+.first-item, .second-item, .third-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.first-item > svg, .second-item > svg, .third-item > svg{
+    color: #00ab55;
+    height: 50px;
+    width: 50px;
+
+}
+
+h6 {
+    font-size: 20px;
+}
+
+
+.sixbox{
+    height: 60vh;
+    border: 2px solid red;
+    margin: 10px 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.singlebox {
+    border: 2px solid red;
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+}

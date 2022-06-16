@@ -1,0 +1,37 @@
+* {
+    background-color: aqua;
+}
+
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+
+.dragon {
+    text-align: center;
+    color: red;
+}
+
+
+p.don {
+    text-align: left;
+    color: bisque;
+}
+
+h2{
+    border: 50px solid tomato;
+    color: rgb(3, 19, 15);
+}

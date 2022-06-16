@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    margin: 10px;
+    
+}
+
+.logo {
+    display: flex;
+    
+}
+
+.nav1{
+    padding-left: 70%;
+}
+
+.nav2{
+    padding-left: 200px;
+}
+
+
+.header-banner {
+    display: flex;
+    height: 200px;
+    background-color: turquoise;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.intro {
+    display: flex;
+    height: 200px;
+    background-color: rgb(48, 217, 90);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+
+.content{
+    display: flex;
+    margin: 10px;
+    
+}
+
+.one{
+    background: aqua;
+    color: black;
+    height: 20vh;
+    width: 33%;
+    text-align: center;
+}
+
+.two{
+    background: aqua;
+    color: black;
+    height: 20vh;
+    width: 33%;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.three{
+    background: aqua;
+    color: black;
+    height: 20vh;
+    width: 33%;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.bottom{
+    
+    height: 120px;
+    margin: 10px;
+    background-color: beige;
+    color: black;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0px;
+}

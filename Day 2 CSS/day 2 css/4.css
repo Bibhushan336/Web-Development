@@ -1,0 +1,43 @@
+#example1 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: rgb(32, 222, 70);
+    background-clip: border-box;  
+  }
+  
+  #example2 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: rgb(25, 151, 13);
+    background-clip: padding-box;
+  }
+  
+  #example3 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: rgb(28, 165, 92);
+    background-clip: content-box;
+  }
+
+
+
+div.animation{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes example {
+    0% {left:0px; top:0px}
+    25% {left:0px; top:200px}
+    50% {left:200px; top:200px}
+    75% {left:200px; top:0px}
+    100% {left:0px; top:0px}
+}
